@@ -3,6 +3,8 @@ pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
 
 
 2.Prepare git directory
+mkdir periodic_table
+cd periodic_table
 git init
 git checkout -b main
 Create a text file test123.txt and make some dummy change in it
